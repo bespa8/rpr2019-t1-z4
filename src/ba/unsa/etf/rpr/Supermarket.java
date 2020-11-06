@@ -9,7 +9,7 @@ public class Supermarket {
             System.out.println("Previse artikala");
             return false;
         }
-        niz[brojac++] = a;
+        niz[brojac++] = new Artikl(a.getNaziv(),a.getCijena(),a.getKod());
         return true;
     }
 
